@@ -1,14 +1,10 @@
 ---
-title: Senior Detective
-date: 1990 - Present
-url: http://ropibbe.nf/savadru
+title: Intern Frontend Developer
+date: 2021 Summer
+url: https://devhero.world
 location: Los Angeles, California
-org: Los Angeles Police Department (LAPD)
-tags: ["Law Enforcement", "Police Work", "Tactical Operations", "Case Management"]
+org: DevHero
+tags: ["React.js", "Javascript", "Golang", "Git", "HTML", "CSS", "MUI"]
 ---
 
-- Lead investigations into organized crime, drug trafficking, and high-profile criminal activities.
-- Conducted extensive surveillance operations utilizing advanced equipment and techniques to gather critical intelligence.
-- Collaborated with federal agencies such as the FBI and DEA on joint task forces to dismantle criminal syndicates.
-- Played a pivotal role in numerous undercover operations, successfully infiltrating criminal organizations and gathering actionable evidence for prosecution.
-- Trained and mentored junior officers in surveillance tactics, undercover operations, and tactical maneuvers.
+Contributed to two groundbreaking healthcare dashboard projects, Speedy ER Sepsis and Anya Meditec, leveraging React.js to build intuitive and responsive user interfaces integrated with robust APIs. For Speedy ER Sepsis, designed real-time data visualization components enabling rapid sepsis identification and timely interventions, collaborating closely with medical professionals for user-centered design. With Anya Meditec, played a key role in developing an intelligent dashboard for streamlined patient monitoring, integrating diverse healthcare data sources and implementing advanced filtering capabilities. Adhered to best practices, optimized performance, prioritized accessibility, and fostered a collaborative, continuously improving team environment through code reviews, knowledge sharing, and agile methodologies.

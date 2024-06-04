@@ -1,8 +1,15 @@
 ---
-title: Advanced SWAT Tactics and Leadership Training
-location: FBI Academy
-url: http://ni.sb/mehanad
-institute: FBI Academy
-date: 1975-1980
-tags: ["Conflict Resolution", "Strategic Planning", "Risk Assessment", "Firearms Training", "Emergency Response"]
+title: Bachelor of Software Engineering
+location: Chiang Mai, Thailand
+url: https://www.camt.cmu.ac.th
+institute: Chiang Mai University
+date: 2019 - 2023
+tags:
+  [
+    "Criminal Justice",
+    "Law Enforcement",
+    "Legal Studies",
+    "Public Safety",
+    "Court System",
+  ]
 ---

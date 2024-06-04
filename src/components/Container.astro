@@ -22,7 +22,7 @@ const PDF = "/cv-20240219.pdf";
 
   <AccordionLayout title={"Work"} icon={"carbon:construction"}>
     {
-      works.map((item) => {
+      works.reverse().map((item) => {
         return (
           <Card
             title={item.frontmatter.title}
@@ -40,7 +40,7 @@ const PDF = "/cv-20240219.pdf";
 
   <AccordionLayout title={"Studies"} icon={"carbon:education"}>
     {
-      studies.map((item) => {
+      studies.reverse().map((item) => {
         return (
           <Card
             title={item.frontmatter.title}
@@ -89,7 +89,7 @@ const PDF = "/cv-20240219.pdf";
     }
   </AccordionLayout>
 
-  <AccordionLayout title={"Blogs"} icon={"carbon:pen"}>
+  <!-- <AccordionLayout title={"Blogs"} icon={"carbon:pen"}>
     {
       blogs.map((item) => {
         return (
@@ -103,7 +103,7 @@ const PDF = "/cv-20240219.pdf";
         );
       })
     }
-  </AccordionLayout>
+  </AccordionLayout> -->
 
   <AccordionLayout title={"Files"} icon={"carbon:volume-file-storage"}>
     <div class="flex justify-center w-full">
