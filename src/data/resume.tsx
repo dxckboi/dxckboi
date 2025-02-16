@@ -10,8 +10,8 @@ export const DATA = {
   locationLink: 'https://www.google.com/maps/place/sanfrancisco',
   description: 'Software Engineer turned Entrepreneur. I love building things and helping people.',
   summary: 'I am a driven and multifaceted individual with a passion for technology and entrepreneurship. My core strengths lie in backend development and full-stack engineering, where I have honed my skills through numerous self-initiated projects and hands-on experiences. Beyond technical proficiency, I am deeply interested in quantitative investment strategies, financial technology, and business operations.',
-  avatarUrl: '/me.jpg',
-  skills: ['Rust', 'Golang'],
+  avatarUrl: '/me.png',
+  skills: ['Golang', 'Typescript', 'Rust', 'Python', 'React', 'Next.js', 'Tailwind CSS', 'Docker', 'PostgreSQL', 'Redis', 'MongoDB', 'MySQL', 'Git'],
   navbar: [
     { href: '/', icon: HomeIcon, label: 'Home' },
     // { href: '/blog', icon: NotebookIcon, label: 'Blog' },
@@ -24,7 +24,6 @@ export const DATA = {
         name: 'GitHub',
         url: 'https://github.com/dxckboi',
         icon: Icons.github,
-
         navbar: true,
       },
       LinkedIn: {
@@ -65,8 +64,7 @@ export const DATA = {
       logoUrl: '/work/krnl.jpeg',
       start: 'August 2024',
       end: 'Present',
-      description: '',
-      // description: 'Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.',
+      description: "As a core developer at KRNL, I played a pivotal role in implementing a custom Ethereum node client to support the platform's execution-sharding system. This involved developing a robust JSON-RPC API service that orchestrates and verifies smart contract execution across multiple blockchain networks, enhancing scalability and efficiency. My responsibilities included architecting the core protocol codebase in Go, optimizing performance for high transaction volumes, and ensuring seamless integration of decentralized applications (dApps) with the KRNL Protocol. Through this work, I contributed to the development of a distributed runtime that determines transaction outcomes based on selected kernels across diverse environments, thereby improving dApp responsiveness and reducing time-to-market.",
     },
     {
       company: 'Algo Alchemist',
@@ -77,8 +75,7 @@ export const DATA = {
       logoUrl: '/work/alchemist.png',
       start: 'April 2024',
       end: 'Present',
-      description: '',
-      // description: 'Architected and wrote the entire MVP of the GeForce Now Cloud Gaming internal admin and A/B testing dashboard using React, Redux, TypeScript, and Python.',
+      description: "As the lead developer for Alchemist Trading, I led the development of an innovative algorithmic trading marketplace. This platform connects traders with advanced, automated trading strategies, offering in-depth market research and consulting services. Leveraging over seven years of expertise in algorithmic trading, our team crafted high-performance strategies tailored for both Forex and Stock markets. I was responsible for architecting and implementing the platform's core functionalities, ensuring seamless integration of automated trading systems, and facilitating rigorous backtesting frameworks. Our methodical approach encompasses strategy development, market analysis, and performance validation, empowering traders to navigate complex markets with confidence.",
     },
     {
       company: 'Investic Analytic Studio',
@@ -89,8 +86,7 @@ export const DATA = {
       logoUrl: '/work/investic.jpeg',
       start: 'April 2023',
       end: 'July 2024',
-      description: '',
-      // description: 'In my role, I closely collaborated with design teams to transform wireframes into dynamic and visually appealing user interfaces using React.js and other modern front-end tools, integrating real-time data visualization through services like TradingView. On the backend, I developed scalable systems that supported marketplace platforms, secure payment gateways, and automated Telegram bots, incorporating best practices and complex algorithms for data handling. My work also extended to data engineering, where I created efficient ETL pipelines with TimescaleDB to manage large volumes of financial data, supporting advanced investment strategies. Additionally, I managed robust DevOps practices using tools like Jenkins, Google Cloud Build, and Docker to streamline deployment processes. This technical foundation supported my work with GenAI at a Quantitative Investment Lab, providing in-depth investment analytics for gold markets.',
+      description: 'Experienced full-stack developer with a strong background in frontend, backend, data engineering, DevOps, and GenAI-driven analytics. Proficient in React.js and modern front-end libraries, translating designs into responsive and intuitive user interfaces. Architected and developed scalable backend systems for marketplaces, secure payment gateways, and automated bots, implementing complex business logic and algorithms for quantitative investment data. Designed high-performance ETL pipelines, leveraging TimescaleDB to process and optimize real-time financial data. Led DevOps initiatives, automating deployments with Jenkins, Google Cloud Build, Terraform, and Docker, ensuring reliability and scalability. Additionally, developed GenAI-powered investment analytics in collaboration with a Quantitative Investment Lab, providing expert insights into Gold OI trading strategies through advanced quantitative modeling.',
     },
     {
       company: 'Accenture',
@@ -101,8 +97,7 @@ export const DATA = {
       logoUrl: '/work/accenture.webp',
       start: 'November 2022',
       end: 'March 2023',
-      description: '',
-      // description: 'Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.',
+      description: "Played a crucial role in the development of KTB Next, a cutting-edge microservices-based platform built with Go. Collaborated closely with cross-functional teams to thoroughly understand the system architecture and requirements documented in Jira and Confluence. Implemented robust unit testing and integration testing frameworks to ensure the reliability and correctness of the microservices, adhering to industry best practices for distributed systems design. Developed comprehensive test suites covering various scenarios, edge cases, and failure modes, achieving high code coverage and confidence in the software's quality.",
     },
   ],
   education: [
@@ -117,32 +112,49 @@ export const DATA = {
   ],
   projects: [
     {
-      title: 'Cloned Redis Server',
-      href: 'https://github.com/dxckboi/cloned-redis.git',
-      dates: '',
+      title: 'Simple Trading Engine',
+      href: 'https://github.com/0xanonydxck/simple-trading-engine',
+      dates: '2024',
       active: true,
-      description: 'I cloned Redis server using Rust and Tokio to understand how Redis works internally. I also added some features to it to make it more useful for my personal use case.',
-      technologies: ['Rust', 'Tokio', 'Redis-cli'],
+      description: 'A simple trading engine that allows users to buy and sell stocks. It is built with Rust.',
+      technologies: ['Rust'],
       links: [
         {
           type: 'Github',
-          href: 'https://github.com/dxckboi/cloned-redis.git',
+          href: 'https://github.com/0xanonydxck/simple-trading-engine',
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: '/project/cloned-redis.png',
+      image: '/project/simple-trading-engine.png',
+      video: '',
+    },
+    {
+      title: 'Mini Binance Stats',
+      href: 'https://github.com/0xanonydxck/Mini-Binance-Stats',
+      dates: '2023',
+      active: true,
+      description: 'A stateless microservice that stores and aggregates Binance trading data, exposing a RESTful API for real-time market analytics and insights.',
+      technologies: ['Python', 'RabbitMQ'],
+      links: [
+        {
+          type: 'Github',
+          href: 'https://github.com/0xanonydxck/Mini-Binance-Stats',
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: '/project/binance.jpg',
       video: '',
     },
   ],
   hackathons: [
-    // {
-    //   title: 'Hack Western 5',
-    //   dates: 'November 23rd - 25th, 2018',
-    //   location: 'London, Ontario',
-    //   description: 'Developed a mobile application which delivered bedtime stories to children using augmented reality.',
-    //   image: 'https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png',
-    //   mlh: 'https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg',
-    //   links: [],
-    // }
+    {
+      title: 'ETHGlobal Bangkok',
+      dates: 'February 14th - 16th, 2025',
+      location: 'Bangkok, Thailand',
+      description: 'Developed a decentralized Point-of-Sale (POS) system on Ethereum that enables customers to seamlessly pay for meals using cryptocurrency through MetaMask wallet integration and QR code scanning. The solution streamlines restaurant payments while leveraging blockchain technology for secure and transparent transactions.',
+      image: 'https://ethglobal.b-cdn.net/events/bangkok/square-logo/default.png',
+      // mlh: 'https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg',
+      links: [],
+    },
   ],
 } as const;
